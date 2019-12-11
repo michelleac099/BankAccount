@@ -55,9 +55,8 @@ public class BankAccount
    {   
 	  if(amount<=balance)
 		balance = balance - amount;
-	  else if(amount>balance)
+	  else
 		System.out.println("Cannot withdraw. Amount exceeds balance");
-	  	balance = balance;
 	   
    }
 
